@@ -1,3 +1,4 @@
+import 'package:acourse_mobile_app/pages/class_page.dart';
 import 'package:acourse_mobile_app/pages/main_page.dart';
 import 'package:acourse_mobile_app/pages/splash_page.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashPage(),
         '/home': (context) => MainPage(),
+        '/class': (context) => ClassPage(),
       },
     );
   }
