@@ -226,6 +226,7 @@ class ClassPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: primaryBackgroundColor,
       body: SafeArea(
+        bottom: false,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

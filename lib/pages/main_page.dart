@@ -19,7 +19,7 @@ class _MainPageState extends State<MainPage> {
     Widget custombottommNavigationBar() {
       return ClipRRect(
         borderRadius: BorderRadius.vertical(
-          top: Radius.circular(18),
+          top: Radius.circular(26),
         ),
         child: BottomNavigationBar(
           backgroundColor: whiteColor,

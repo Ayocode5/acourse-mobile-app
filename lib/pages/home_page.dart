@@ -2,7 +2,6 @@ import 'package:acourse_mobile_app/theme.dart';
 import 'package:acourse_mobile_app/widget/popular_card.dart';
 import 'package:acourse_mobile_app/widget/progress_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 
 class Header extends StatelessWidget {
   @override
@@ -180,6 +179,7 @@ class HomePage extends StatelessWidget {
       home: Scaffold(
         backgroundColor: primaryBackgroundColor,
         body: SafeArea(
+          bottom: false,
           child: SingleChildScrollView(
             child: Padding(
               padding: EdgeInsets.only(
