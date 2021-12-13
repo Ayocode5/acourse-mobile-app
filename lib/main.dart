@@ -1,5 +1,6 @@
-import 'package:acourse_mobile_app/pages/class_page.dart';
+import 'package:acourse_mobile_app/pages/login_page.dart';
 import 'package:acourse_mobile_app/pages/main_page.dart';
+import 'package:acourse_mobile_app/pages/signup_page.dart';
 import 'package:acourse_mobile_app/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -14,8 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => SplashPage(),
+        '/login': (context) => LoginPage(),
+        '/signup': (context) => SignupPage(),
         '/home': (context) => MainPage(),
-        '/class': (context) => ClassPage(),
       },
     );
   }

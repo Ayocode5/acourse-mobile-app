@@ -156,7 +156,7 @@ class ProgressCard extends StatelessWidget {
                         ]),
                       ),
                       // trailing: Text(
-    
+
                       // ),
                       linearStrokeCap: LinearStrokeCap.roundAll,
                     ),
